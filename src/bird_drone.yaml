@@ -1,0 +1,4 @@
+  train: /workspace/yolov7/Dataset/train/images
+  val: /workspace/yolov7/Dataset/valid/images
+  nc: 2
+  names: ['bird', 'drone']

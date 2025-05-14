@@ -1,0 +1,3 @@
+# python3 train.py --workers 1 --device 0 --batch-size 32 --data /workspace/yolov7/Dataset/bird_drone.yaml --img 640 640 --cfg cfg/training/yolov7-custom.yaml --weights '/workspace/yolov7/weights/yolov7_training.pt' --name yolov7-custom --hyp data/hyp.scratch.custom.yaml
+cd /workspace/yolov7
+python3 /workspace/yolov7/train.py --workers 1 --device 0 --batch-size 4 --epochs 25 --data /workspace/src/bird_drone.yaml --img 640 640 --cfg /workspace/src/yolov7-custom.yaml --weights '/workspace/src/yolov7_training.pt' --name yolov7-custom --hyp /workspace/yolov7/data/hyp.scratch.custom.yaml
